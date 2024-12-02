@@ -1,5 +1,6 @@
 import Loader from './components/Loader';
 import React ,{useState,useEffect} from 'react';
+import DiscussionPage from './Discussion/DiscussionPage'
 //import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';  // Assuming you have a Header component
@@ -57,7 +58,7 @@ function App() {
             <Route path="/adminAuthPanel" element={<AdminAuthPanel/>}/>
             <Route path="/adminDashboard" element={ <AdminRoute><AdminDashboard/> </AdminRoute> }/>
             <Route path="/auth-page" element={<AuthPage/>}/>
-            
+            <Route path="/Discussion-page" element={<DiscussionPage/>}/>
           </Routes>
         </main>
         <Footer/>
