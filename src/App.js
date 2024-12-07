@@ -1,4 +1,4 @@
-import Loader from './components/Loader';
+/**
 import React ,{useState,useEffect} from 'react';
 //import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -68,4 +68,14 @@ function App() {
 }
 
 export default App;
+*/
 
+const App = () =>{
+  return(
+    <>
+    <div className="container border-amber-700 bg-gradient-to-brint w-6/12 h-1/3">
+    <h1> It is working</h1>
+    </div>
+    </>
+    );
+}
